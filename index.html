@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="LoginDiv">
+            <input id="userName" type="text" placeholder="Enter Name" />
+            <button id="enterButton" onclick="enter()">Enter</button>
+        </div>
+
+        <div id="chatDiv">
+            <div class="chatContainer" id="chatsView">
+                <h1 id="WelcomeText">Welcome</h1>
+
+                
+            </div>
+            
+            <div class="textContainer" id="containerForText">
+                <input
+                    type="text"
+                    name=""
+                    id="message"
+                    placeholder="Enter your Message"
+                />
+                <button type="button" id="sendMessage">Send</button>
+            </div>
+
+            <div class="messageIconContainer">
+                <img
+                    src="https://iconarchive.com/download/i87110/graphicloads/colorful-long-shadow/Message.ico"
+                    alt="message Icon"
+                    class="messageIcon"
+                    onclick="chatTogle()"
+                />
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

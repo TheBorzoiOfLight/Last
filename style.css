@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+.messageIcon:hover {
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.messageIconContainer {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.messageIcon {
+    width: 100px;
+}
+#chatDiv {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    max-height: 600px;
+    overflow:auto;
+}
+.chatContainer {
+    width: 80%;
+}
+
+/* Chat styles */
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Clear floats */
+.container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* Style images */
+.container img {
+	float: left;
+	width: 80px;
+	margin-right: 20px;
+	border-radius: 50%;
+	height: 80px;
+	object-fit: cover;
+}
+
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+}
+.userUp {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container__received {
+    background-color: 999;
+}
+.container__sended {
+    background-color: aliceblue;
+}
+
+.textContainer {
+    position: fixed;
+    bottom: 10px;
+}
+
+#message {
+    font-size: 25px;
+}
+#sendMessage {
+    font-size: 25px;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#LoginDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_363,c_limit/a76a7bba-36d1-4637-97ec-1ecfbfcfc547/tienda-oficial-del-f-c-barcelona-camisetas-y-equipaciones.png);
+}
+
+#userName{
+font-size: 40px;
+border-radius: 5px;
+background-color:bisque;
+}
+
+#enterButton{
+    font-size: 30px;
+    border-radius: 5px;
+}
