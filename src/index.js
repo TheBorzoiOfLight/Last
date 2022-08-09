@@ -68,6 +68,6 @@ io.on('connection', (socket) => {
     })
 })
  
-server.listen(port, () =>
+server.listen(port,"198.199.80.29", () =>
  console.log(`App is listening on port ${port}.`)
 )
